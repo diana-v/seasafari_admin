@@ -1,4 +1,14 @@
 <template>
+    <v-card
+            elevation="2"
+    >
+        <v-card-title>
+            Calendar
+        </v-card-title>
+        <v-card-subtitle>
+            Overview of reservations
+        </v-card-subtitle>
+        <v-card-text>
     <v-row class="fill-height">
         <v-col>
             <v-sheet height="64">
@@ -130,6 +140,8 @@
             </v-sheet>
         </v-col>
     </v-row>
+        </v-card-text>
+    </v-card>
 </template>
 
 <script>

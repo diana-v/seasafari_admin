@@ -21,9 +21,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Calendar.vue')
   },
   {
-    path: '/mailbox',
-    name: 'Mailbox',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Mailbox.vue')
+    path: '/reservation-list',
+    name: 'Reservation',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ReservationList.vue')
   }
 ];
 
